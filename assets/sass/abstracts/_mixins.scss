@@ -1,0 +1,6 @@
+@mixin change_text ( $paramColor: darkblue, $paramBack: darkseagreen, $paramFontSize: 20px, $paramFontWeigth: 700 ) {
+    color: $paramColor;
+    background-color: $paramBack;
+    font-size: $paramFontSize;
+    font-weight: $paramFontWeigth;
+}

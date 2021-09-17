@@ -1,0 +1,70 @@
+.global_hover {
+  background-color: $primary;
+  color: $color_black;
+}
+
+body {
+  font-family: $font_roboto;
+}
+
+.main {
+  position: relative;
+  display: block;
+  height: 100 vh;
+  margin-top: 7%;
+}
+
+.hero {
+  background-image: url("../img/bg-hero.png");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 50vh;
+}
+
+.document {
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+
+  &__text1 {
+    @include change_text();
+
+    &:hover {
+      @extend .global_hover;
+    }
+  }
+  &__text2 {
+    @include change_text(
+      $paramColor: rgb(151, 163, 42),
+      $paramBack: rgb(107, 88, 219),
+      $paramFontSize: 15px,
+      $paramFontWeigth: 400
+    );
+
+    &:hover {
+      @extend .global_hover;
+    }
+  }
+  &__text3 {
+    @include change_text(
+      $paramColor: rgb(180, 39, 150),
+      $paramBack: rgb(219, 85, 52)
+    );
+
+    &:hover {
+      @extend .global_hover;
+    }
+  }
+}
+
+.parrafo {
+    margin: 10px;
+    padding: 10px;
+    background-color: aquamarine;
+    width: 100%;
+    height: 200px;
+    color: black;
+    font-size: 20px;
+}
