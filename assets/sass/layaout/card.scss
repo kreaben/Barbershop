@@ -1,0 +1,15 @@
+.card{
+    margin: 5rem;
+}
+.card-body{
+    margin: 5rem;
+    &__card-title{
+        position: $fa-var-align-justify;
+    }
+    &__card-text1{
+        color: $color_ruddypink;
+    }
+}
+.naomi{
+    border-radius: 50%;
+}

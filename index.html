@@ -32,48 +32,56 @@
                <p>12 de abril de 2018</p>
            </div>
            <div class="Paragraph__text">
-               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime neque cupiditate officia aliquam nisi eveniet iusto ad sit, cum voluptatibus blanditiis, atque dolores soluta tempore impedit ratione quaerat ut. Optio!</p>
+               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime neque cupiditate officia aliquam nisi eveniet iusto ad sit, cum voluptatibus blanditiis, atque dolores soluta tempore impedit ratione quaerat ut. Optio! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime neque cupiditate officia aliquam nisi eveniet iusto ad sit, cum voluptatibus blanditiis, atque dolores soluta tempore impedit ratione quaerat ut. Optio!</p>
+               <br>
+               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime neque cupiditate officia aliquam nisi eveniet iusto ad sit, cum voluptatibus blanditiis, atque dolores soluta tempore impedit ratione quaerat ut. Optio! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime neque cupiditate officia aliquam nisi eveniet iusto ad sit, cum voluptatibus blanditiis, atque dolores soluta tempore impedit ratione quaerat ut. Optio!</p>
+               <br>
+               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime neque cupiditate officia aliquam nisi eveniet iusto ad sit, cum voluptatibus blanditiis, atque dolores soluta tempore impedit ratione quaerat ut. Optio! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime neque cupiditate officia aliquam nisi eveniet iusto ad sit, cum voluptatibus blanditiis, atque dolores soluta tempore impedit ratione quaerat ut. Optio!</p>
                <br>
                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime neque cupiditate officia aliquam nisi eveniet iusto ad sit, cum voluptatibus blanditiis, atque dolores soluta tempore impedit ratione quaerat ut. Optio!</p>
                <br>
-               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime neque cupiditate officia aliquam nisi eveniet iusto ad sit, cum voluptatibus blanditiis, atque dolores soluta tempore impedit ratione quaerat ut. Optio!</p>
-               <br>
-               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime neque cupiditate officia aliquam nisi eveniet iusto ad sit, cum voluptatibus blanditiis, atque dolores soluta tempore impedit ratione quaerat ut. Optio!</p>
-               <br>
-               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime neque cupiditate officia aliquam nisi eveniet iusto ad sit, cum voluptatibus blanditiis, atque dolores soluta tempore impedit ratione quaerat ut. Optio!</p>
+               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime neque cupiditate officia aliquam nisi eveniet iusto ad sit, cum voluptatibus blanditiis, atque dolores soluta tempore impedit ratione quaerat ut. Optio! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime neque cupiditate officia aliquam nisi eveniet iusto ad sit, cum voluptatibus blanditiis, atque dolores soluta tempore impedit ratione quaerat ut. Optio!</p>
                <br>
            </div>
        </section>
        <div class="MainButton">
-        <button class="MainButton__Button__1">Compartir</button>
-        <button class="MainButton__Button__2">Compartir en Twitter</button>
+        <a class="MainButton__Button__1" href="#" role="button">Compartir</a>
+        <a class="MainButton__Button__2" href="#" role="button">Comentar en Twitter</a>
     </div>
     <div class="card mb-3" >
         <div class="row g-0">
           <div class="col-md-3">
-            <img src="./assets/img/naomi-thai.png" class="img-fluid rounded-start" alt="Naomi">
+            <img src="./assets/img/naomi-thai.png" class="naomi" alt="Naomi">
           </div>
+          <br>
           <div class="col-md-3">
             <div class="card-body">
-              <h5 class="card-title">Naomi Thai</h5>
-              <p class="card-text">@Naothai</p>
-              <p class="card-text">depelos.com</p>
+              <h5 class="card-body__card-title">Naomi Thai</h5>
+              <a class="card-body__card-text1">@Naothai</a>
+              <br>
+              <a class="card-body__card-text1">depelos.com</a>
             </div>
           </div>
           <div class="col-md-6">
             <div class="card-body">
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, itaque voluptas veritatis asperiores maiores dolorem laboriosam quidem suscipit voluptate alias et nisi, tempora officiis sit? Cumque eius ex beatae aliquid.</p>
+              <p class="card-body__card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, itaque voluptas veritatis asperiores maiores dolorem laboriosam quidem suscipit voluptate alias et nisi, tempora officiis sit? Cumque eius ex beatae aliquid.</p>
             </div>
           </div>
         </div>
       </div>
-      <section class="paginador">
+      <section aria-label="...">
         <ul class="pagination">
-          <li class="page-item"><a class="page-link" href="#">Anterior</a></li>
+          <li class="page-item disabled">
+            <a class="page-link" href="#" tabindex="-1">Previous</a>
+          </li>
           <li class="page-item"><a class="page-link" href="#">1</a></li>
-          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item active">
+            <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+          </li>
           <li class="page-item"><a class="page-link" href="#">3</a></li>
-          <li class="page-item"><a class="page-link" href="#">Siguiente</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#">Next</a>
+          </li>
         </ul>
       </section>
       <footer class="footer">

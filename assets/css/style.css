@@ -1,8 +1,7 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,900&family=Roboto&display=swap");
 /* font family */
 /* colors */
-/* font icons */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -17245,8 +17244,8 @@ readers do not read off random characters that represent icons */
   font-style: normal;
   font-weight: 900;
   font-display: block;
-  src: url("../webfonts//fa-solid-900.eot");
-  src: url("../webfonts//fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../webfonts//fa-solid-900.woff2") format("woff2"), url("../webfonts//fa-solid-900.woff") format("woff"), url("../webfonts//fa-solid-900.ttf") format("truetype"), url("../webfonts//fa-solid-900.svg#fontawesome") format("svg");
+  src: url("../webfonts/fa-solid-900.eot");
+  src: url("../webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-solid-900.woff2") format("woff2"), url("../webfonts/fa-solid-900.woff") format("woff"), url("../webfonts/fa-solid-900.ttf") format("truetype"), url("../webfonts/fa-solid-900.svg#fontawesome") format("svg");
 }
 .fa,
 .fas {
@@ -17263,8 +17262,8 @@ readers do not read off random characters that represent icons */
   font-style: normal;
   font-weight: 400;
   font-display: block;
-  src: url("../webfonts//fa-brands-400.eot");
-  src: url("../webfonts//fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../webfonts//fa-brands-400.woff2") format("woff2"), url("../webfonts//fa-brands-400.woff") format("woff"), url("../webfonts//fa-brands-400.ttf") format("truetype"), url("../webfonts//fa-brands-400.svg#fontawesome") format("svg");
+  src: url("../webfonts/fa-brands-400.eot");
+  src: url("../webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-brands-400.woff2") format("woff2"), url("../webfonts/fa-brands-400.woff") format("woff"), url("../webfonts/fa-brands-400.ttf") format("truetype"), url("../webfonts/fa-brands-400.svg#fontawesome") format("svg");
 }
 .fab {
   font-family: "Font Awesome 5 Brands";
@@ -17280,8 +17279,8 @@ readers do not read off random characters that represent icons */
   font-style: normal;
   font-weight: 400;
   font-display: block;
-  src: url("../webfonts//fa-regular-400.eot");
-  src: url("../webfonts//fa-regular-400.eot?#iefix") format("embedded-opentype"), url("../webfonts//fa-regular-400.woff2") format("woff2"), url("../webfonts//fa-regular-400.woff") format("woff"), url("../webfonts//fa-regular-400.ttf") format("truetype"), url("../webfonts//fa-regular-400.svg#fontawesome") format("svg");
+  src: url("../webfonts/fa-regular-400.eot");
+  src: url("../webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-regular-400.woff2") format("woff2"), url("../webfonts/fa-regular-400.woff") format("woff"), url("../webfonts/fa-regular-400.ttf") format("truetype"), url("../webfonts/fa-regular-400.svg#fontawesome") format("svg");
 }
 .far {
   font-family: "Font Awesome 5 Free";
@@ -20133,7 +20132,7 @@ body {
 }
 
 .nav {
-  background-color: #000000;
+  background-color: #121619;
   width: 100%;
   height: 70px;
 }
@@ -20141,14 +20140,17 @@ body {
   float: left;
 }
 .nav__intro--img {
-  width: 100px;
-  height: 50px;
+  width: 15rem;
+  height: 5rempx;
   margin: 10px;
-  padding-left: 25px;
+  padding-left: 5rem;
 }
 .nav__list {
   float: right;
   padding-left: 50rem;
+}
+.nav__list a:hover {
+  color: #E56353;
 }
 .nav__list--item {
   display: inline-block;
@@ -20156,7 +20158,7 @@ body {
   padding: 5px;
 }
 .nav__list--item a {
-  color: white;
+  color: #e6e7e7;
 }
 
 .MainImage {
@@ -20183,12 +20185,16 @@ body {
   color: white;
 }
 
+.MainButton :hover {
+  background-color: #e6e7e7;
+  color: #d1d1d1;
+}
 .MainButton__Button__1 {
   background-color: grey;
   color: white;
   border: 5px grey solid;
   margin: 1rem;
-  margin-left: 7rem;
+  margin-left: 5rem;
   border-radius: 20px;
 }
 .MainButton__Button__2 {
@@ -20200,7 +20206,7 @@ body {
 }
 
 .footer {
-  background-color: #000000;
+  background-color: #121619;
   text-align: center;
 }
 .footer__logo {
@@ -20208,7 +20214,57 @@ body {
 }
 
 .pagination {
-  padding-left: 40%;
+  padding-left: 41%;
+  margin: 3rem;
+}
+
+.card {
+  margin: 5rem;
+}
+
+.card-body {
+  margin: 5rem;
+}
+.card-body__card-title {
+  position: \f039;
+}
+.card-body__card-text1 {
+  color: #d76c68;
+}
+
+.naomi {
+  border-radius: 50%;
+}
+
+.Paragraph {
+  margin: 5rem;
+}
+
+.nav {
+  font-family: "Roboto", sans-serif;
+}
+
+.MainImage {
+  font-family: "Playfair Diasplay";
+  font-weight: bolder;
+}
+
+.Paragraph {
+  font-family: "Roboto", sans-serif;
+  color: #d1d1d1;
+}
+
+.MainButton {
+  font-family: "Roboto", sans-serif;
+}
+
+.card-body__card-title {
+  font-family: "Playfair Diasplay";
+  font-weight: bolder;
+}
+.card-body__card-text {
+  color: #d1d1d1;
+  font-family: #d1d1d1;
 }
 
 /*# sourceMappingURL=style.css.map */

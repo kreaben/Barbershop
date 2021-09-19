@@ -1,0 +1,27 @@
+.nav{
+    font-family:$font_roboto;
+}
+.MainImage{
+    font-family: $font_playful;
+    font-weight:bolder;
+}
+
+.Paragraph{
+    font-family: $font_roboto;
+    color: $color_lightgrey;
+}
+
+.MainButton{
+    font-family: $font_roboto;
+}
+
+.card-body{
+    &__card-title{
+        font-family: $font_playful;
+        font-weight: bolder;
+    }
+    &__card-text{
+        color:$color_lightgrey;
+        font-family: $color_lightgrey;
+    }
+}

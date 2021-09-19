@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,900&family=Roboto&display=swap');
 @import './abstracts/variable';
 @import './base/reset';
 @import './abstracts/mixins';
@@ -15,3 +15,6 @@
 @import './components/buttons';
 @import './layaout/footer';
 @import './components/_pagination';
+@import './layaout/card.scss';
+@import './layaout/body.scss';
+@import './base/typography';

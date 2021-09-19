@@ -1,5 +1,5 @@
 .nav {
-    background-color: $color_black;
+    background-color: $color_eerieblack;
     width: 100%;
     height: 70px;
 
@@ -7,16 +7,19 @@
         float: left;
 
         &--img {
-            width: 100px;
-            height: 50px;
+            width: 15rem;
+            height: 5rempx;
             margin: 10px;
-            padding-left: 25px;
+            padding-left: 5rem;
         }
     }
 
     &__list {
         float: right;
         padding-left: 50rem;
+        a:hover {
+            color: #E56353;
+          }
         
         &--item {
             display: inline-block;
@@ -25,7 +28,7 @@
         }
         
         &--item a {
-            color: white;
+            color: $color_platinum;
         }
     }
 }
