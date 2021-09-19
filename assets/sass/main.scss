@@ -11,4 +11,7 @@
 @import './vendors/fontawesome-free-5.15.4-web/scss/v4-shims.scss';
 @import './pages/home';
 @import './components/navbar';
-
+@import './layaout/header';
+@import './components/buttons';
+@import './layaout/footer';
+@import './components/_pagination';
